@@ -1,0 +1,11 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+one m=1 R=5 p=(0,0) v=(1,0)
+other m=1 R=5 p=(20,10) v=(0,0)
+energy: 0.5
+momentum: (1,0)
+
+Here are the collision events.

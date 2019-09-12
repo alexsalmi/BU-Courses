@@ -1,0 +1,36 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+left m=10 R=5 p=(70,20) v=(-5,0)
+right m=10 R=5 p=(-50,20) v=(5,0)
+still m=10 R=5 p=(10,20) v=(0,0)
+energy: 250
+momentum: (0,0)
+
+Here are the collision events.
+
+time of event: 10
+colliding left still
+left m=10 R=5 p=(20,20) v=(0,0)
+right m=10 R=5 p=(0,20) v=(5,0)
+still m=10 R=5 p=(10,20) v=(-5,0)
+energy: 250
+momentum: (0,0)
+
+time of event: 10
+colliding right still
+left m=10 R=5 p=(20,20) v=(0,0)
+right m=10 R=5 p=(0,20) v=(-5,0)
+still m=10 R=5 p=(10,20) v=(5,0)
+energy: 250
+momentum: (0,0)
+
+time of event: 10
+colliding left still
+left m=10 R=5 p=(20,20) v=(5,0)
+right m=10 R=5 p=(0,20) v=(-5,0)
+still m=10 R=5 p=(10,20) v=(0,0)
+energy: 250
+momentum: (0,0)

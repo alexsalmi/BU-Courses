@@ -1,0 +1,4 @@
+errors.cpp: In function ‘int main()’:
+errors.cpp:3:1: error: expected initializer before ‘}’ token
+ }
+ ^

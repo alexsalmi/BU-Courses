@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1523376961 source:/media/sf_EC327/newproj/main.cpp
+	<algorithm>
+	<array>
+	<cmath>
+	<cstdint>
+	<iomanip>
+	<iostream>
+	<string>
+	<vector>
+	"timer.h"
+
+1521220420 /media/sf_EC327/newproj/timer.h
+	<iostream>
+	<chrono>
+	<string>
+	<vector>
+

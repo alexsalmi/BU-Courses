@@ -1,0 +1,108 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+fiv m=1 R=5 p=(10,10) v=(0,0)
+fou m=1 R=5 p=(10,20) v=(0,0)
+one m=1 R=5 p=(10,50) v=(0,0)
+pool m=1 R=5 p=(10,100) v=(0,-10)
+sev m=1 R=5 p=(10,-10) v=(0,0)
+six m=1 R=5 p=(10,0) v=(0,0)
+thr m=1 R=5 p=(10,30) v=(0,0)
+two m=1 R=5 p=(10,40) v=(0,0)
+energy: 50
+momentum: (0,-10)
+
+Here are the collision events.
+
+time of event: 4
+colliding one pool
+fiv m=1 R=5 p=(10,10) v=(0,0)
+fou m=1 R=5 p=(10,20) v=(0,0)
+one m=1 R=5 p=(10,50) v=(0,-10)
+pool m=1 R=5 p=(10,60) v=(0,0)
+sev m=1 R=5 p=(10,-10) v=(0,0)
+six m=1 R=5 p=(10,0) v=(0,0)
+thr m=1 R=5 p=(10,30) v=(0,0)
+two m=1 R=5 p=(10,40) v=(0,0)
+energy: 50
+momentum: (0,-10)
+
+time of event: 4
+colliding one two
+fiv m=1 R=5 p=(10,10) v=(0,0)
+fou m=1 R=5 p=(10,20) v=(0,0)
+one m=1 R=5 p=(10,50) v=(0,0)
+pool m=1 R=5 p=(10,60) v=(0,0)
+sev m=1 R=5 p=(10,-10) v=(0,0)
+six m=1 R=5 p=(10,0) v=(0,0)
+thr m=1 R=5 p=(10,30) v=(0,0)
+two m=1 R=5 p=(10,40) v=(0,-10)
+energy: 50
+momentum: (0,-10)
+
+time of event: 4
+colliding thr two
+fiv m=1 R=5 p=(10,10) v=(0,0)
+fou m=1 R=5 p=(10,20) v=(0,0)
+one m=1 R=5 p=(10,50) v=(0,0)
+pool m=1 R=5 p=(10,60) v=(0,0)
+sev m=1 R=5 p=(10,-10) v=(0,0)
+six m=1 R=5 p=(10,0) v=(0,0)
+thr m=1 R=5 p=(10,30) v=(0,-10)
+two m=1 R=5 p=(10,40) v=(0,0)
+energy: 50
+momentum: (0,-10)
+
+time of event: 4
+colliding fou thr
+fiv m=1 R=5 p=(10,10) v=(0,0)
+fou m=1 R=5 p=(10,20) v=(0,-10)
+one m=1 R=5 p=(10,50) v=(0,0)
+pool m=1 R=5 p=(10,60) v=(0,0)
+sev m=1 R=5 p=(10,-10) v=(0,0)
+six m=1 R=5 p=(10,0) v=(0,0)
+thr m=1 R=5 p=(10,30) v=(0,0)
+two m=1 R=5 p=(10,40) v=(0,0)
+energy: 50
+momentum: (0,-10)
+
+time of event: 4
+colliding fiv fou
+fiv m=1 R=5 p=(10,10) v=(0,-10)
+fou m=1 R=5 p=(10,20) v=(0,0)
+one m=1 R=5 p=(10,50) v=(0,0)
+pool m=1 R=5 p=(10,60) v=(0,0)
+sev m=1 R=5 p=(10,-10) v=(0,0)
+six m=1 R=5 p=(10,0) v=(0,0)
+thr m=1 R=5 p=(10,30) v=(0,0)
+two m=1 R=5 p=(10,40) v=(0,0)
+energy: 50
+momentum: (0,-10)
+
+time of event: 4
+colliding fiv six
+fiv m=1 R=5 p=(10,10) v=(0,0)
+fou m=1 R=5 p=(10,20) v=(0,0)
+one m=1 R=5 p=(10,50) v=(0,0)
+pool m=1 R=5 p=(10,60) v=(0,0)
+sev m=1 R=5 p=(10,-10) v=(0,0)
+six m=1 R=5 p=(10,0) v=(0,-10)
+thr m=1 R=5 p=(10,30) v=(0,0)
+two m=1 R=5 p=(10,40) v=(0,0)
+energy: 50
+momentum: (0,-10)
+
+time of event: 4
+colliding sev six
+fiv m=1 R=5 p=(10,10) v=(0,0)
+fou m=1 R=5 p=(10,20) v=(0,0)
+one m=1 R=5 p=(10,50) v=(0,0)
+pool m=1 R=5 p=(10,60) v=(0,0)
+sev m=1 R=5 p=(10,-10) v=(0,-10)
+six m=1 R=5 p=(10,0) v=(0,0)
+thr m=1 R=5 p=(10,30) v=(0,0)
+two m=1 R=5 p=(10,40) v=(0,0)
+energy: 50
+momentum: (0,-10)

@@ -1,0 +1,18 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+other m=100 R=10 p=(80,90) v=(0,0)
+slow m=100 R=10 p=(0,100) v=(1e-80,0)
+energy: 5e-159
+momentum: (1e-78,0)
+
+Here are the collision events.
+
+time of event: 6.26795e+81
+colliding other slow
+other m=100 R=10 p=(80,90) v=(7.5e-81,-4.33013e-81)
+slow m=100 R=10 p=(62.6795,100) v=(2.5e-81,4.33013e-81)
+energy: 5e-159
+momentum: (1e-78,0)

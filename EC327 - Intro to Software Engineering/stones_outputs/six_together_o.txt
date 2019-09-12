@@ -1,0 +1,180 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+five m=10 R=5 p=(65,0) v=(-5,0)
+four m=10 R=5 p=(15,0) v=(-1,0)
+one m=10 R=5 p=(-15,0) v=(1,0)
+six m=10 R=5 p=(125,0) v=(-10,0)
+thr m=10 R=5 p=(-125,0) v=(10,0)
+two m=10 R=5 p=(-65,0) v=(5,0)
+energy: 1260
+momentum: (0,0)
+
+Here are the collision events.
+
+time of event: 10
+colliding five four
+five m=10 R=5 p=(15,0) v=(-1,0)
+four m=10 R=5 p=(5,0) v=(-5,0)
+one m=10 R=5 p=(-5,0) v=(1,0)
+six m=10 R=5 p=(25,0) v=(-10,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding five six
+five m=10 R=5 p=(15,0) v=(-10,0)
+four m=10 R=5 p=(5,0) v=(-5,0)
+one m=10 R=5 p=(-5,0) v=(1,0)
+six m=10 R=5 p=(25,0) v=(-1,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding five four
+five m=10 R=5 p=(15,0) v=(-5,0)
+four m=10 R=5 p=(5,0) v=(-10,0)
+one m=10 R=5 p=(-5,0) v=(1,0)
+six m=10 R=5 p=(25,0) v=(-1,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding four one
+five m=10 R=5 p=(15,0) v=(-5,0)
+four m=10 R=5 p=(5,0) v=(1,0)
+one m=10 R=5 p=(-5,0) v=(-10,0)
+six m=10 R=5 p=(25,0) v=(-1,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding five four
+five m=10 R=5 p=(15,0) v=(1,0)
+four m=10 R=5 p=(5,0) v=(-5,0)
+one m=10 R=5 p=(-5,0) v=(-10,0)
+six m=10 R=5 p=(25,0) v=(-1,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding five six
+five m=10 R=5 p=(15,0) v=(-1,0)
+four m=10 R=5 p=(5,0) v=(-5,0)
+one m=10 R=5 p=(-5,0) v=(-10,0)
+six m=10 R=5 p=(25,0) v=(1,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding one two
+five m=10 R=5 p=(15,0) v=(-1,0)
+four m=10 R=5 p=(5,0) v=(-5,0)
+one m=10 R=5 p=(-5,0) v=(5,0)
+six m=10 R=5 p=(25,0) v=(1,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(-10,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding four one
+five m=10 R=5 p=(15,0) v=(-1,0)
+four m=10 R=5 p=(5,0) v=(5,0)
+one m=10 R=5 p=(-5,0) v=(-5,0)
+six m=10 R=5 p=(25,0) v=(1,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(-10,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding five four
+five m=10 R=5 p=(15,0) v=(5,0)
+four m=10 R=5 p=(5,0) v=(-1,0)
+one m=10 R=5 p=(-5,0) v=(-5,0)
+six m=10 R=5 p=(25,0) v=(1,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(-10,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding five six
+five m=10 R=5 p=(15,0) v=(1,0)
+four m=10 R=5 p=(5,0) v=(-1,0)
+one m=10 R=5 p=(-5,0) v=(-5,0)
+six m=10 R=5 p=(25,0) v=(5,0)
+thr m=10 R=5 p=(-25,0) v=(10,0)
+two m=10 R=5 p=(-15,0) v=(-10,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding thr two
+five m=10 R=5 p=(15,0) v=(1,0)
+four m=10 R=5 p=(5,0) v=(-1,0)
+one m=10 R=5 p=(-5,0) v=(-5,0)
+six m=10 R=5 p=(25,0) v=(5,0)
+thr m=10 R=5 p=(-25,0) v=(-10,0)
+two m=10 R=5 p=(-15,0) v=(10,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding one two
+five m=10 R=5 p=(15,0) v=(1,0)
+four m=10 R=5 p=(5,0) v=(-1,0)
+one m=10 R=5 p=(-5,0) v=(10,0)
+six m=10 R=5 p=(25,0) v=(5,0)
+thr m=10 R=5 p=(-25,0) v=(-10,0)
+two m=10 R=5 p=(-15,0) v=(-5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding four one
+five m=10 R=5 p=(15,0) v=(1,0)
+four m=10 R=5 p=(5,0) v=(10,0)
+one m=10 R=5 p=(-5,0) v=(-1,0)
+six m=10 R=5 p=(25,0) v=(5,0)
+thr m=10 R=5 p=(-25,0) v=(-10,0)
+two m=10 R=5 p=(-15,0) v=(-5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding five four
+five m=10 R=5 p=(15,0) v=(10,0)
+four m=10 R=5 p=(5,0) v=(1,0)
+one m=10 R=5 p=(-5,0) v=(-1,0)
+six m=10 R=5 p=(25,0) v=(5,0)
+thr m=10 R=5 p=(-25,0) v=(-10,0)
+two m=10 R=5 p=(-15,0) v=(-5,0)
+energy: 1260
+momentum: (0,0)
+
+time of event: 10
+colliding five six
+five m=10 R=5 p=(15,0) v=(5,0)
+four m=10 R=5 p=(5,0) v=(1,0)
+one m=10 R=5 p=(-5,0) v=(-1,0)
+six m=10 R=5 p=(25,0) v=(10,0)
+thr m=10 R=5 p=(-25,0) v=(-10,0)
+two m=10 R=5 p=(-15,0) v=(-5,0)
+energy: 1260
+momentum: (0,0)

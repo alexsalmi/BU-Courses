@@ -1,0 +1,28 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+one m=10 R=1 p=(0,0) v=(1,0)
+three m=30 R=2 p=(10,0) v=(0.2,0)
+two m=1 R=1 p=(20,0) v=(0,0)
+energy: 5.6
+momentum: (16,0)
+
+Here are the collision events.
+
+time of event: 8.75
+colliding one three
+one m=10 R=1 p=(8.75,0) v=(-0.2,0)
+three m=30 R=2 p=(11.75,0) v=(0.6,0)
+two m=1 R=1 p=(20,0) v=(0,0)
+energy: 5.6
+momentum: (16,0)
+
+time of event: 17.5
+colliding three two
+one m=10 R=1 p=(7,0) v=(-0.2,0)
+three m=30 R=2 p=(17,0) v=(0.56129,0)
+two m=1 R=1 p=(20,0) v=(1.16129,0)
+energy: 5.6
+momentum: (16,0)

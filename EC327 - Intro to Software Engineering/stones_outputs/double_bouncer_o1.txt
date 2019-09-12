@@ -1,0 +1,40 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+four m=10 R=5 p=(40,0) v=(-1,0)
+one m=10 R=5 p=(20,0.5) v=(4,0)
+three m=10 R=5 p=(-40,0) v=(1,0)
+two m=10 R=5 p=(-20,0.5) v=(-4,0)
+energy: 170
+momentum: (0,0)
+
+Here are the collision events.
+
+time of event: 2.0025
+colliding four one
+four m=10 R=5 p=(37.9975,0) v=(3.9875,-0.249687)
+one m=10 R=5 p=(28.01,0.5) v=(-0.9875,0.249687)
+three m=10 R=5 p=(-37.9975,0) v=(1,0)
+two m=10 R=5 p=(-28.01,0.5) v=(-4,0)
+energy: 170
+momentum: (0,0)
+
+time of event: 2.0025
+colliding three two
+four m=10 R=5 p=(37.9975,-7.09654e-17) v=(3.9875,-0.249687)
+one m=10 R=5 p=(28.01,0.5) v=(-0.9875,0.249687)
+three m=10 R=5 p=(-37.9975,0) v=(-3.9875,-0.249687)
+two m=10 R=5 p=(-28.01,0.5) v=(0.9875,0.249687)
+energy: 170
+momentum: (-1.77636e-15,0)
+
+time of event: 25.3038
+colliding one two
+four m=10 R=5 p=(130.911,-5.81803) v=(3.9875,-0.249687)
+one m=10 R=5 p=(5,6.31803) v=(0.9875,0.249687)
+three m=10 R=5 p=(-130.911,-5.81803) v=(-3.9875,-0.249687)
+two m=10 R=5 p=(-5,6.31803) v=(-0.9875,0.249687)
+energy: 170
+momentum: (1.77636e-15,0)

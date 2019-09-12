@@ -1,0 +1,633 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+dnfive m=1 R=5 p=(65,50) v=(-5,-4)
+dnone m=1 R=5 p=(15,50) v=(-1,-4)
+dnten m=1 R=5 p=(125,50) v=(-10,-4)
+dpfive m=1 R=5 p=(-65,50) v=(5,-4)
+dpten m=1 R=5 p=(-125,50) v=(10,-4)
+nfive m=1 R=5 p=(65,0) v=(-5,0)
+none m=1 R=5 p=(15,0) v=(-1,0)
+npone m=1 R=5 p=(-15,50) v=(1,-4)
+nten m=1 R=5 p=(125,0) v=(-10,0)
+pfive m=1 R=5 p=(-65,0) v=(5,0)
+pone m=1 R=5 p=(-15,0) v=(1,0)
+pten m=1 R=5 p=(-125,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+Here are the collision events.
+
+time of event: 10
+colliding dnfive dnone
+dnfive m=1 R=5 p=(15,10) v=(-1,-4)
+dnone m=1 R=5 p=(5,10) v=(-5,-4)
+dnten m=1 R=5 p=(25,10) v=(-10,-4)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,0)
+none m=1 R=5 p=(5,0) v=(-1,0)
+npone m=1 R=5 p=(-5,10) v=(1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,0)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnfive dnten
+dnfive m=1 R=5 p=(15,10) v=(-10,-4)
+dnone m=1 R=5 p=(5,10) v=(-5,-4)
+dnten m=1 R=5 p=(25,10) v=(-1,-4)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,0)
+none m=1 R=5 p=(5,0) v=(-1,0)
+npone m=1 R=5 p=(-5,10) v=(1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,0)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnfive dnone
+dnfive m=1 R=5 p=(15,10) v=(-5,-4)
+dnone m=1 R=5 p=(5,10) v=(-10,-4)
+dnten m=1 R=5 p=(25,10) v=(-1,-4)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,0)
+none m=1 R=5 p=(5,0) v=(-1,0)
+npone m=1 R=5 p=(-5,10) v=(1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,0)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnfive nfive
+dnfive m=1 R=5 p=(15,10) v=(-5,0)
+dnone m=1 R=5 p=(5,10) v=(-10,-4)
+dnten m=1 R=5 p=(25,10) v=(-1,-4)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,0)
+npone m=1 R=5 p=(-5,10) v=(1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,0)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnone none
+dnfive m=1 R=5 p=(15,10) v=(-5,0)
+dnone m=1 R=5 p=(5,10) v=(-10,0)
+dnten m=1 R=5 p=(25,10) v=(-1,-4)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,0)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnone npone
+dnfive m=1 R=5 p=(15,10) v=(-5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(-1,-4)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-10,-4)
+nten m=1 R=5 p=(25,0) v=(-10,0)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnfive dnone
+dnfive m=1 R=5 p=(15,10) v=(1,0)
+dnone m=1 R=5 p=(5,10) v=(-5,0)
+dnten m=1 R=5 p=(25,10) v=(-1,-4)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-10,-4)
+nten m=1 R=5 p=(25,0) v=(-10,0)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnfive dnten
+dnfive m=1 R=5 p=(15,10) v=(-1,0)
+dnone m=1 R=5 p=(5,10) v=(-5,0)
+dnten m=1 R=5 p=(25,10) v=(1,-4)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-10,-4)
+nten m=1 R=5 p=(25,0) v=(-10,0)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnten nten
+dnfive m=1 R=5 p=(15,10) v=(-1,0)
+dnone m=1 R=5 p=(5,10) v=(-5,0)
+dnten m=1 R=5 p=(25,10) v=(1,0)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-10,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dpfive dpten
+dnfive m=1 R=5 p=(15,10) v=(-1,0)
+dnone m=1 R=5 p=(5,10) v=(-5,0)
+dnten m=1 R=5 p=(25,10) v=(1,0)
+dpfive m=1 R=5 p=(-15,10) v=(10,-4)
+dpten m=1 R=5 p=(-25,10) v=(5,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-10,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dpfive npone
+dnfive m=1 R=5 p=(15,10) v=(-1,0)
+dnone m=1 R=5 p=(5,10) v=(-5,0)
+dnten m=1 R=5 p=(25,10) v=(1,0)
+dpfive m=1 R=5 p=(-15,10) v=(-10,-4)
+dpten m=1 R=5 p=(-25,10) v=(5,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(10,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnone npone
+dnfive m=1 R=5 p=(15,10) v=(-1,0)
+dnone m=1 R=5 p=(5,10) v=(10,0)
+dnten m=1 R=5 p=(25,10) v=(1,0)
+dpfive m=1 R=5 p=(-15,10) v=(-10,-4)
+dpten m=1 R=5 p=(-25,10) v=(5,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-5,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnfive dnone
+dnfive m=1 R=5 p=(15,10) v=(10,0)
+dnone m=1 R=5 p=(5,10) v=(-1,0)
+dnten m=1 R=5 p=(25,10) v=(1,0)
+dpfive m=1 R=5 p=(-15,10) v=(-10,-4)
+dpten m=1 R=5 p=(-25,10) v=(5,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-5,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnfive dnten
+dnfive m=1 R=5 p=(15,10) v=(1,0)
+dnone m=1 R=5 p=(5,10) v=(-1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-10,-4)
+dpten m=1 R=5 p=(-25,10) v=(5,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-5,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dpfive dpten
+dnfive m=1 R=5 p=(15,10) v=(1,0)
+dnone m=1 R=5 p=(5,10) v=(-1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(5,-4)
+dpten m=1 R=5 p=(-25,10) v=(-10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-5,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dpfive npone
+dnfive m=1 R=5 p=(15,10) v=(1,0)
+dnone m=1 R=5 p=(5,10) v=(-1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,-4)
+dpten m=1 R=5 p=(-25,10) v=(-10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(5,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnone npone
+dnfive m=1 R=5 p=(15,10) v=(1,0)
+dnone m=1 R=5 p=(5,10) v=(5,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,-4)
+dpten m=1 R=5 p=(-25,10) v=(-10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dnfive dnone
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,-4)
+dpten m=1 R=5 p=(-25,10) v=(-10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,0)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dpfive pfive
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,-4)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,0)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding dpten pten
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive none
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-1,-4)
+none m=1 R=5 p=(5,0) v=(-5,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-10,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive nten
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-10,-4)
+none m=1 R=5 p=(5,0) v=(-5,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-1,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive none
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(-10,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-1,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(1,0)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding none pone
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-5,-4)
+none m=1 R=5 p=(5,0) v=(1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-1,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(-10,0)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive none
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(1,-4)
+none m=1 R=5 p=(5,0) v=(-5,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(-1,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(-10,0)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive nten
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-1,-4)
+none m=1 R=5 p=(5,0) v=(-5,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,-4)
+nten m=1 R=5 p=(25,0) v=(1,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(-10,0)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding npone pone
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-1,-4)
+none m=1 R=5 p=(5,0) v=(-5,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(1,-4)
+pfive m=1 R=5 p=(-15,0) v=(5,-4)
+pone m=1 R=5 p=(-5,0) v=(-10,-4)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding pfive pone
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-1,-4)
+none m=1 R=5 p=(5,0) v=(-5,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(1,-4)
+pfive m=1 R=5 p=(-15,0) v=(-10,-4)
+pone m=1 R=5 p=(-5,0) v=(5,-4)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding none pone
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(-1,-4)
+none m=1 R=5 p=(5,0) v=(5,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(1,-4)
+pfive m=1 R=5 p=(-15,0) v=(-10,-4)
+pone m=1 R=5 p=(-5,0) v=(-5,-4)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive none
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(5,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(1,-4)
+pfive m=1 R=5 p=(-15,0) v=(-10,-4)
+pone m=1 R=5 p=(-5,0) v=(-5,-4)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive nten
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(1,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(5,-4)
+pfive m=1 R=5 p=(-15,0) v=(-10,-4)
+pone m=1 R=5 p=(-5,0) v=(-5,-4)
+pten m=1 R=5 p=(-25,0) v=(10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding pfive pten
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(1,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(5,-4)
+pfive m=1 R=5 p=(-15,0) v=(10,-4)
+pone m=1 R=5 p=(-5,0) v=(-5,-4)
+pten m=1 R=5 p=(-25,0) v=(-10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding pfive pone
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(1,-4)
+none m=1 R=5 p=(5,0) v=(-1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(5,-4)
+pfive m=1 R=5 p=(-15,0) v=(-5,-4)
+pone m=1 R=5 p=(-5,0) v=(10,-4)
+pten m=1 R=5 p=(-25,0) v=(-10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding none pone
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(1,-4)
+none m=1 R=5 p=(5,0) v=(10,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(5,-4)
+pfive m=1 R=5 p=(-15,0) v=(-5,-4)
+pone m=1 R=5 p=(-5,0) v=(-1,-4)
+pten m=1 R=5 p=(-25,0) v=(-10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive none
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(10,-4)
+none m=1 R=5 p=(5,0) v=(1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(5,-4)
+pfive m=1 R=5 p=(-15,0) v=(-5,-4)
+pone m=1 R=5 p=(-5,0) v=(-1,-4)
+pten m=1 R=5 p=(-25,0) v=(-10,-4)
+energy: 300
+momentum: (0,-24)
+
+time of event: 10
+colliding nfive nten
+dnfive m=1 R=5 p=(15,10) v=(5,0)
+dnone m=1 R=5 p=(5,10) v=(1,0)
+dnten m=1 R=5 p=(25,10) v=(10,0)
+dpfive m=1 R=5 p=(-15,10) v=(-5,0)
+dpten m=1 R=5 p=(-25,10) v=(-10,0)
+nfive m=1 R=5 p=(15,0) v=(5,-4)
+none m=1 R=5 p=(5,0) v=(1,-4)
+npone m=1 R=5 p=(-5,10) v=(-1,0)
+nten m=1 R=5 p=(25,0) v=(10,-4)
+pfive m=1 R=5 p=(-15,0) v=(-5,-4)
+pone m=1 R=5 p=(-5,0) v=(-1,-4)
+pten m=1 R=5 p=(-25,0) v=(-10,-4)
+energy: 300
+momentum: (0,-24)

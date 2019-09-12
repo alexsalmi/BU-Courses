@@ -1,0 +1,18 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial stones.
+ball m=1 R=0.1 p=(6.372e+06,0) v=(-100,0)
+earth m=5.97e+24 R=6.371e+06 p=(0,0) v=(0,0)
+energy: 5000
+momentum: (-100,0)
+
+Here are the collision events.
+
+time of event: 9.999
+colliding ball earth
+ball m=1 R=0.1 p=(6.371e+06,0) v=(100,0)
+earth m=5.97e+24 R=6.371e+06 p=(0,0) v=(-3.35008e-23,0)
+energy: 5000
+momentum: (-100,0)
