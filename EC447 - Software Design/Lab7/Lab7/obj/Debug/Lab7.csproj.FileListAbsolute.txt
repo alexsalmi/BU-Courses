@@ -1,0 +1,10 @@
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\bin\Debug\Lab7.exe.config
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\bin\Debug\Lab7.exe
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\bin\Debug\Lab7.pdb
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\obj\Debug\Lab7.csprojAssemblyReference.cache
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\obj\Debug\Lab7.Properties.Resources.resources
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\obj\Debug\Lab7.csproj.GenerateResource.cache
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\obj\Debug\Lab7.csproj.CoreCompileInputs.cache
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\obj\Debug\Lab7.exe
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\obj\Debug\Lab7.pdb
+C:\Users\coola\OneDrive\Documents\BU\Lab7\Lab7\obj\Debug\Lab7.Form1.resources
