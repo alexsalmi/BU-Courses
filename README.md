@@ -27,6 +27,18 @@ Introduction to the general concept of algorithms. Efficiency and run-time of al
 
 ___
 
+### *EC413 - Computer Organization*
+**Semester:** Spring 2019 (Junior)
+
+**Languages:** Assembly, Verilog, C
+
+**Instructor:** Michel Kinsy
+
+**Course Description:**
+Introduction to the fundamentals and design of computer systems. Topics covered include computer instruction sets, assembly language programming, arithmetic circuits, CPU design (data path and control, pipelining), performance evaluation, memory devices, memory systems including caching and virtual memory, and I/O. Project using design automation tools. Includes lab.
+
+___
+
 ### *EC414 - Intro to Machine Learning*
 **Semester:** Spring 2019 (Junior)
 
