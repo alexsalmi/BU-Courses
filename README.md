@@ -3,17 +3,6 @@ A collection of programming homeworks and projects from my different classes at 
 
 ## Courses
 
-### *EC311 - Intro to Logic Design*
-**Semester:** Fall 2018 (Junior)
-
-**Language:** Verilog
-
-**Instructor:** Ajay Joshi
-
-**Course Description:**
-Introduction to hardware building blocks used in digital computers. Boolean algebra, combinatorial and sequential circuits: analysis and design. Adders, multipliers, decoders, encoders, multiplexors. Programmable logic devices: read-only memory, programmable arrays, Verilog. Counters and registers. Includes lab.
-
-___
 ### *EC327 - Intro to Software Engineering*
 **Semester:** Spring 2018 (Sophomore)
 
@@ -26,6 +15,17 @@ This course aims to introduce students to software design, programming technique
 
 ___
 
+### *EC311 - Intro to Logic Design*
+**Semester:** Fall 2018 (Junior)
+
+**Language:** Verilog
+
+**Instructor:** Ajay Joshi
+
+**Course Description:**
+Introduction to hardware building blocks used in digital computers. Boolean algebra, combinatorial and sequential circuits: analysis and design. Adders, multipliers, decoders, encoders, multiplexors. Programmable logic devices: read-only memory, programmable arrays, Verilog. Counters and registers. Includes lab.
+
+___
 ### *EC330 - Applied Algorithms and Data Structures*
 **Semester:** Fall 2018 (Junior)
 
