@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[]){
+	int binary = atoi(argv[1]);
+	int decimal = 0, power = 1, sign = (binary/10000000), i;
+
+	for(i=0; i<7; i++){
+		if((binary%10==1 && sign==0) || (binary%10==0 && sign==1))
+			decimal += power;
+		binary /= 10;
+		power *= 2;
+	}
+
+	if(sign==1)
+		decimal = 0-(decimal+1);
+
+	printf("%d\n", decimal);
+
+	return 0;
+}

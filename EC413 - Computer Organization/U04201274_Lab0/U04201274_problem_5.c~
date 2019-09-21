@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int binarySearch(int array[], int start, int end, int x);
+
+int main(int argc, char* argv[]){
+	int n = atoi(argv[1]);
+	int array[n], min, temp, i;
+
+	for(i=0; i<n; i++)
+		array[i] = atoi(argv[i+2]);
+
+	for(i=0; i<n; i++){
+		min = i;
+		for(int j=i+1; j<n; j++){
+			if(array[j]<array[min])
+				min = j;
+		}
+		temp = array[i];
+		array[i] = array[min];
+		array[min] = temp; 
+	}
+
+	int x = atoi(argv[n+2]);
+
+	int output = binarySearch(array, 0, n, x);
+
+	while(array[output-1]==x)
+		output--;
+
+	printf("%d\n", output);
+
+	return 0;
+}
+
+int binarySearch(int array[], int start, int end, int x){
+	int diff = end-start;
+	if(diff<=2){
+		if(array[start]==x)
+			return start;
+		else if(diff==2){
+			if(array[start+1]==x)
+				return start+1;
+		}
+		else
+			return -1;
+	}
+
+	int middle = diff/2 + start;
+
+	if(array[middle] == x)
+		return middle;
+	else if(array[middle] < x)
+		return binarySearch(array, middle+1, end, x);
+	else if(array[middle] > x)
+		return binarySearch(array, start, middle, x);
+}
