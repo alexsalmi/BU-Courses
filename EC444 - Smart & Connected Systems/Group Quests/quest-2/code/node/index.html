@@ -1,0 +1,139 @@
+<!-- QUEST 2: Sensor Central -->
+<!--TEAM 17: Karle Erf, Thuc Nguyen, Alex Salmi-->
+
+<!--Front end code for displaying our data on canvasjs graphs. Recieves the data from the socket, parses the data and splits it up based on sensor, then adds it to the corresponding array, and sends it to the graph--> 
+
+<!doctype html>
+<html>
+
+<!-- HTML HEAD -->
+<head>
+	<title>Quest 2 - Sensor Hub</title>
+	<!-- Source for Socket.io - this one is local -->
+	<script src="/socket.io/socket.io.js"></script>
+	<!-- Script to handle socket -->
+	<script>
+		window.onload = function () {
+			var index = 0;
+			var tempData = [];
+			var dist_US_Data = [];
+			var dist_IR_Data = [];
+			var socket = io();
+			socket.on('data', function(data){
+				console.log(data);
+				updateData(index, data);
+				index++;
+			});
+
+            var tempChart = new CanvasJS.Chart("tempChartContainer", {
+                animationEnabled: true,
+                title:{
+                    text: "Temperature Sensor Values"
+                },
+                axisX: {
+                    title: "Time"
+                },
+                axisY: {
+                    title: "Temperature (in °C)",
+                    includeZero: false,
+                    gridThickness: 0,
+                    suffix: " °C"
+                },
+                legend:{
+                    cursor: "pointer",
+                    fontSize: 16,
+                    itemclick: toggleDataSeries
+                },
+                toolTip:{
+                    shared: true
+                },
+                data: [{
+                    name: "Temperature Sensor",
+                    type: "spline",
+                    yValueFormatString: "#0.## °C",
+                    showInLegend: true,
+                    dataPoints: tempData
+                }]
+            });
+            tempChart.render();
+
+            var distChart = new CanvasJS.Chart("distChartContainer", {
+                animationEnabled: true,
+                title:{
+                    text: "Distance Sensor Values"
+                },
+                axisX: {
+                    title: "Time",
+                },
+                axisY: {
+                    title: "Distance (in cm)",
+                    includeZero: false,
+                    gridThickness: 0,
+                    suffix: " cm"
+                },
+                legend:{
+                    cursor: "pointer",
+                    fontSize: 16,
+                    itemclick: toggleDataSeries
+                },
+                toolTip:{
+                    shared: true
+                },
+                data: [{
+                    name: "Ultrasonic Sensor",
+                    type: "spline",
+                    yValueFormatString: "#0.## cm",
+                    showInLegend: true,
+                    dataPoints: dist_US_Data
+                },
+                {
+                    name: "Infrared Sensor",
+                    type: "spline",
+                    yValueFormatString: "#0.## cm",
+                    showInLegend: true,
+                    dataPoints: dist_IR_Data
+                }]
+            });
+            distChart.render();
+
+            function toggleDataSeries(e){
+                if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                    e.dataSeries.visible = false;
+                }
+                else{
+                    e.dataSeries.visible = true;
+                }
+                tempChart.render();
+                distChart.render();
+            }
+
+			function updateData(index, data){
+                temp = parseInt(data.split("|")[0]);
+                dist_US = parseInt(data.split("|")[1]);
+                dist_IR = parseInt(data.split("|")[2]);
+
+				tempPoint = {x: index, y: temp};
+				tempData.push(tempPoint);
+				dist_US_point = {x: index, y: dist_US};
+				dist_US_Data.push(dist_US_point);
+				dist_IR_point = {x: index, y: dist_IR};
+				dist_IR_Data.push(dist_IR_point);
+			
+				tempChart.render();
+				distChart.render();
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<!-- HTML layout -->
+    <div id="tempChartContainer" style="height: 300px; width: 100%;"></div>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <hr/>
+	<div id="distChartContainer" style="height: 300px; width: 100%;"></div>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+</body>
+
+</html>

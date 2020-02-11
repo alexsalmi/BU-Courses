@@ -1,0 +1,125 @@
+<!-- QUEST 3: Wearable -->
+<!--TEAM 17: Karle Erf, Thuc Nguyen, Alex Salmi-->
+
+<!--Front end code for displaying our data. Recieves the data from the socket, parses the data and splits it up based on sensor, then adds it to the graph array or to the correct display blocks--> 
+<!--We also have the inputs at the bottom of the page, which when changed are sent back to the server using a post submit-->
+
+<!doctype html>
+<html>
+
+<!-- HTML HEAD -->
+<head>
+	<title>Quest 3 - Wearable</title>
+	<!-- Source for Socket.io - this one is local -->
+	<script src="/socket.io/socket.io.js"></script>
+	<!-- Script to handle socket -->
+	<script>
+        var socket;
+
+		window.onload = function () {
+			var index = 0;
+			var tempData = [];
+			socket = io();
+			socket.on('data', function(data){
+				console.log(data);
+				updateData(index, data);
+				index++;
+			});
+
+            var tempChart = new CanvasJS.Chart("tempChartContainer", {
+                animationEnabled: true,
+                title:{
+                    text: "Temperature Sensor Values"
+                },
+                axisX: {
+                    title: "Time"
+                },
+                axisY: {
+                    title: "Temperature (in °C)",
+                    includeZero: false,
+                    gridThickness: 0,
+                    suffix: " °C"
+                },
+                legend:{
+                    cursor: "pointer",
+                    fontSize: 16,
+                    itemclick: toggleDataSeries
+                },
+                toolTip:{
+                    shared: true
+                },
+                data: [{
+                    name: "Temperature Sensor",
+                    type: "spline",
+                    yValueFormatString: "#0.## °C",
+                    showInLegend: true,
+                    dataPoints: tempData
+                }]
+            });
+            tempChart.render();
+
+            function toggleDataSeries(e){
+                if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                    e.dataSeries.visible = false;
+                }
+                else{
+                    e.dataSeries.visible = true;
+                }
+                tempChart.render();
+            }
+
+			function updateData(index, data){
+                temp = parseInt(data.split("|")[0]);
+                steps = data.split("|")[1];
+                battery = parseInt(data.split("|")[2]);
+
+                document.getElementById("stepsVal").innerHTML = steps;
+                document.getElementById("batteryVal").innerHTML = battery + " mV";
+
+
+				tempPoint = {x: index, y: temp};
+				tempData.push(tempPoint);
+			
+				tempChart.render();
+			}
+        }
+	</script>
+</head>
+
+<body>
+	<!-- HTML layout -->
+    <div id="tempChartContainer" style="height: 300px; width: 100%;"></div>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <hr/>
+
+    <h4>Steps: </h4>
+    <p id="stepsVal"></p>
+    <h4>Battery: </h4>
+    <p id="batteryVal"></p>
+
+    <form action="http://192.168.1.49:3000/toggle" method="post">
+        <fieldset>
+                <h4>Toggle Temp</h4>
+                <input type="checkbox" id="toggleTemp" name="toggleTemp" />
+                <h4>Toggle Steps</h4>
+                <input type="checkbox" id="toggleSteps" name="toggleSteps" />
+                <h4>Toggle Battery</h4>
+                <input type="checkbox" id="toggleBattery" name="toggleBattery" />
+
+                <input type="submit" id="submit" name="submit" value="Update" />
+        </fieldset>
+    </form>
+
+    <form action="http://192.168.1.49:3000/myaction" method="post">
+        <fieldset>
+                <p>Water LED interval:</p>
+                <input type="text" id="interval" name="interval" />
+                <input type="checkbox" id="findMyWatch" name="findMyWatch" checked hidden />
+                <br/>
+                <br/>
+                <input type="submit" id="submit" name="submit" value="Find Your Watch" />
+        </fieldset>
+    </form>
+</body>
+
+</html>

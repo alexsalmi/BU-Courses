@@ -71,6 +71,7 @@ ___
 
 **Course Description:**
 Object-oriented software design for desktop applications with a graphical user interface. C# and Microsoft .NET programming assignments. Provides a solid foundation in modern programming for engineering and other applications.
+
 ___
 
 ### *EC440 - Operating Systems*
@@ -82,3 +83,15 @@ ___
 
 **Course Description:**
 Operating system concepts and design objectives. Concurrent processes, process synchronization, and deadlocks. Resource management including virtual memory, CPU scheduling, and secondary storage. File structures, input/output, and distributed systems. Case studies of popular operating systems.
+
+___
+
+### *EC444 - Smart and Connected Systems*
+**Semester:** Fall 2019 (Senior)
+
+**Language:** C/Javascript
+
+**Instructor:** Thomas Little
+
+**Course Description:**
+Hands-on introductory course to cyber-physical and IoT systems. Microcontrollers: integrated development environments (ISEs), architecture, and I/O interfaces. Hardware interfacing of systems: formal design and specifications, real-time OS, programming, and control. IoT systems: smart phones, wireless personal area networks (WPANs), IP gateways, mobile cloud computing, reliability, security, and privacy. Course culminates with a team project.

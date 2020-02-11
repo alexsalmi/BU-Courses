@@ -1,0 +1,13 @@
+# Target labels
+ mconf-idf
+# Source files and their labels
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/CMakeFiles/mconf-idf
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/CMakeFiles/mconf-idf.rule
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/CMakeFiles/mconf-idf-complete.rule
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-install.rule
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-mkdir.rule
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-download.rule
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-update.rule
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-patch.rule
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-configure.rule
+/Users/karleerf/Documents/Fall2019/EC444/Team17-Erf-Nguyen-Salmi/quest-6/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-build.rule

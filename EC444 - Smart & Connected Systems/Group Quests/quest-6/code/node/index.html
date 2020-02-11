@@ -1,0 +1,81 @@
+<!-- QUEST 5: Security Key -->
+<!--TEAM 17: Karle Erf, Thuc Nguyen, Alex Salmi-->
+
+<!--Front end code for the security system. Will display all authorized fobs, with their ID and owner. Can also add a new fob_id/owner combo using user input-->
+<!--The user can also enter a fob_id to search the database for a history of the fob's accesses, as well as whether this fob is currently in a room or not ('locked'/'unlocked')-->
+
+<!doctype html>
+<html>
+
+<!-- HTML HEAD -->
+<head>
+	<title>Quest 6 - Crawler Control Center</title>
+	<!-- Source for Socket.io - this one is local -->
+	<script src="/socket.io/socket.io.js"></script>
+	<!-- Script to handle socket -->
+	<script>
+        var socket = io();
+
+		window.onload = function () {
+            var index = 0;
+
+            socket.on('splits', function(data){
+                console.log("SPLITS: " + data);
+                let list = "";
+                data.split("|").forEach(item => {
+                    list = list + "<li>" + item + "</li>";
+                });
+
+                document.getElementById("splits").innerHTML = list;
+            })
+        }
+
+        function goForward(){
+            socket.emit('direction', 'forward');
+        }
+        function goReverse(){
+            socket.emit('direction', 'reverse');
+        }
+        function goLeft(){
+            socket.emit('direction', 'left');
+        }
+        function goRight(){
+            socket.emit('direction', 'right');
+        }
+        function toggleRemote(){
+            socket.emit('toggleRemote', 'toggle');
+        }
+
+    </script>
+</head>
+
+<body>
+    <!-- HTML layout -->
+    <h1>Crawler Control Center</h1>
+    <img id="preview" style="-webkit-user-select: none;margin: auto;" src="http://192.168.1.36:8080/?action=stream">
+    </br>
+    <strong>Splits</strong>
+    <ul id="splits"></ul>
+    </br>
+
+    </br></br></br>
+    <strong>Controls</strong>
+    </br>
+    <input type="button" id="forward" value="Forward" onclick="goForward()" />
+    </br>
+    <input type="button" id="left" value="Left" onclick="goLeft()" />
+    <input type="button" id="right" value="Right" onclick="goRight()" />
+    </br>
+    <input type="button" id="reverse" value="Reverse" onclick="goReverse()" />
+    </br>
+    </br>   
+    <input type="button" id="toggleRemote" value="Toggle Remote Driving" onclick="toggleRemote()" />
+
+
+    
+    </br>
+    </br>
+    </br>
+</body>
+
+</html>

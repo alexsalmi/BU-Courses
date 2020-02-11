@@ -1,0 +1,88 @@
+<!-- QUEST 5: Security Key -->
+<!--TEAM 17: Karle Erf, Thuc Nguyen, Alex Salmi-->
+
+<!--Front end code for the security system. Will display all authorized fobs, with their ID and owner. Can also add a new fob_id/owner combo using user input-->
+<!--The user can also enter a fob_id to search the database for a history of the fob's accesses, as well as whether this fob is currently in a room or not ('locked'/'unlocked')-->
+
+<!doctype html>
+<html>
+
+<!-- HTML HEAD -->
+<head>
+	<title>Quest 5 - Security Hub</title>
+	<!-- Source for Socket.io - this one is local -->
+	<script src="/socket.io/socket.io.js"></script>
+	<!-- Script to handle socket -->
+	<script>
+        var socket = io();
+
+		window.onload = function () {
+            var index = 0;
+
+            socket.on('users', function(data){
+                console.log("USERS: " + data);
+                let list = "";
+                data.split(",").forEach(item => {
+                    list = list + "<li>Name: " + item.split("|")[1] + ", Fob ID: " + item.split("|")[0] + "</li>"
+                });
+
+                document.getElementById("users").innerHTML = list;
+            })
+
+            socket.on('searchResults', function(data){
+                console.log("Recieved " + data);
+                document.getElementById("accesses").innerHTML = "";
+                document.getElementById("status").innerText = "";
+
+                let list = "";
+                newData = data.split(",")[1];
+                document.getElementById("status").innerText = data.split(",")[0];
+                newData.split("|").forEach(item => {
+                    list = list + "<li>" + item + "</li>";
+                });
+
+                document.getElementById("accesses").innerHTML = list;
+            })
+        }
+
+        function addNewUser(){
+            let name = document.getElementById("newName").value;
+            let pin = document.getElementById("newPin").value;
+
+            socket.emit('newUser', name+"|"+pin);
+        }
+
+        function searchAccesses(){
+            let pin = document.getElementById("searchPin").value;
+
+            socket.emit('searchAccesses', pin);
+        }
+	</script>
+</head>
+
+<body>
+    <!-- HTML layout -->
+    <h1>Security Hub</h1>
+    <strong>Authorized Fobs</strong>
+    <ul id="users"></ul>
+    <strong>Add new User/Fob</strong>
+    <br/>
+    <label>Name: </label>
+    <input type="text" id="newName" />
+    <label>Fob ID: </label>
+    <input type="text" id="newPin" />
+    <input type="button" id="submitNewUser" value="Save User" onclick="addNewUser()" />
+
+    </br></br></br>
+    <strong>Get Accesses for User</strong>
+    </br>
+    <label>Fob_ID: </label>
+    <input type="text" id="searchPin" />
+    <input type="button" id="searchAccesses" value="Search accesses" onclick="searchAccesses()" />
+    </br>
+    </br>
+    <strong id="status"></strong>
+    <ul id="accesses"></ul>
+</body>
+
+</html>

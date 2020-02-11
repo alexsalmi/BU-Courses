@@ -1,0 +1,13 @@
+# Target labels
+ mconf-idf
+# Source files and their labels
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/CMakeFiles/mconf-idf
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/CMakeFiles/mconf-idf.rule
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/CMakeFiles/mconf-idf-complete.rule
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-install.rule
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-mkdir.rule
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-download.rule
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-update.rule
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-patch.rule
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-configure.rule
+/Users/karleerf/Desktop/EC444/Erf-Karle/skills/cluster-3-wearable/27-accelerometer/code/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-build.rule

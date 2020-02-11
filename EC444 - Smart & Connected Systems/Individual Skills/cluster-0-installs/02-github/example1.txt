@@ -1,0 +1,16 @@
+Weather forecast:
+  Friday
+    - Rain
+    - High: 68 degrees
+    - Low: 58 degrees
+  Saturday
+    - Rain
+    - High: 68 degrees
+    - Low: 57 degrees
+  Sunday
+    - Partly Cloudy
+    - High: 75 degrees
+    - Low: 54 degrees
+
+Current Value of Dow Stock Exchange:
+  $26,804.00

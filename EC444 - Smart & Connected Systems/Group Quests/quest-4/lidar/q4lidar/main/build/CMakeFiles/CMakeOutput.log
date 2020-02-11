@@ -1,0 +1,663 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Strawberry/c/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/3.13.4/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Strawberry/c/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/3.13.4/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_af276"
+[1/2] Building C object CMakeFiles/cmTC_af276.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_af276.exe
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_bf826"
+[1/2] Building C object CMakeFiles/cmTC_bf826.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_bf826.exe
+Using built-in specs.
+COLLECT_GCC=C:\Strawberry\c\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-8.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpc=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-isl=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh, Built by strawberryperl.com project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/lib -L/opt/build/prerequisites/x86_64-zlib-static/lib -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/bin/ld.exe
+Thread model: posix
+gcc version 8.3.0 (x86_64-posix-seh, Built by strawberryperl.com project) 
+COMPILER_PATH=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/;C:/Strawberry/c/bin/../libexec/gcc/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/;C:/Strawberry/c/bin/../lib/gcc/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf826.exe' '-mtune=core2' '-march=nocona'
+ C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/collect2.exe -plugin C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/liblto_plugin-0.dll -plugin-opt=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\THUCNG~1\AppData\Local\Temp\ccYg7q0w.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_bf826.exe C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtbegin.o -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0 -LC:/Strawberry/c/bin/../lib/gcc -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../.. CMakeFiles/cmTC_bf826.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_bf826.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf826.exe' '-mtune=core2' '-march=nocona'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_bf826"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_bf826.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_bf826.exe]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Strawberry\c\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpc=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-isl=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh, Built by strawberryperl.com project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/lib -L/opt/build/prerequisites/x86_64-zlib-static/lib -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/bin/ld.exe]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (x86_64-posix-seh, Built by strawberryperl.com project) ]
+  ignore line: [COMPILER_PATH=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/]
+  ignore line: [C:/Strawberry/c/bin/../libexec/gcc/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf826.exe' '-mtune=core2' '-march=nocona']
+  link line: [ C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/collect2.exe -plugin C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/liblto_plugin-0.dll -plugin-opt=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\THUCNG~1\AppData\Local\Temp\ccYg7q0w.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_bf826.exe C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtbegin.o -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0 -LC:/Strawberry/c/bin/../lib/gcc -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../.. CMakeFiles/cmTC_bf826.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_bf826.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtend.o]
+    arg [C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\THUCNG~1\AppData\Local\Temp\ccYg7q0w.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bf826.exe] ==> ignore
+    arg [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc] ==> dir [C:/Strawberry/c/bin/../lib/gcc]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../..] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_bf826.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_bf826.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0] ==> [C:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/8.3.0]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc] ==> [C:/Strawberry/c/lib/gcc]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Strawberry/c/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib] ==> [C:/Strawberry/c/lib]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Strawberry/c/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../..] ==> [C:/Strawberry/c/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/8.3.0;C:/Strawberry/c/lib/gcc;C:/Strawberry/c/x86_64-w64-mingw32/lib;C:/Strawberry/c/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_6f294"
+[1/2] Building C object CMakeFiles/cmTC_6f294.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_6f294.exe
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_9f06a"
+[1/2] Building C object CMakeFiles/cmTC_9f06a.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_9f06a.exe
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_a10ca"
+[1/2] Building C object CMakeFiles/cmTC_a10ca.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_a10ca.exe
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_99d89"
+[1/2] Building CXX object CMakeFiles/cmTC_99d89.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_99d89.exe
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_7d567"
+[1/2] Building CXX object CMakeFiles/cmTC_7d567.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_7d567.exe
+Using built-in specs.
+COLLECT_GCC=C:\Strawberry\c\bin\c++.exe
+COLLECT_LTO_WRAPPER=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-8.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpc=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-isl=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh, Built by strawberryperl.com project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/lib -L/opt/build/prerequisites/x86_64-zlib-static/lib -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/bin/ld.exe
+Thread model: posix
+gcc version 8.3.0 (x86_64-posix-seh, Built by strawberryperl.com project) 
+COMPILER_PATH=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/;C:/Strawberry/c/bin/../libexec/gcc/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/;C:/Strawberry/c/bin/../lib/gcc/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/;C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7d567.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+ C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/collect2.exe -plugin C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/liblto_plugin-0.dll -plugin-opt=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\THUCNG~1\AppData\Local\Temp\ccrkUxfM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_7d567.exe C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtbegin.o -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0 -LC:/Strawberry/c/bin/../lib/gcc -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../.. CMakeFiles/cmTC_7d567.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_7d567.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7d567.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_7d567"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_7d567.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_7d567.exe]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Strawberry\c\bin\c++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-mpc=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-isl=/opt/build/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh, Built by strawberryperl.com project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/include -I/opt/build/prerequisites/x86_64-zlib-static/include -I/opt/build/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/opt/lib -L/opt/build/prerequisites/x86_64-zlib-static/lib -L/opt/build/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/opt/build/x86_64-830-posix-seh-rt_v6/mingw64/bin/ld.exe]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (x86_64-posix-seh, Built by strawberryperl.com project) ]
+  ignore line: [COMPILER_PATH=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/]
+  ignore line: [C:/Strawberry/c/bin/../libexec/gcc/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7d567.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+  link line: [ C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/collect2.exe -plugin C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/liblto_plugin-0.dll -plugin-opt=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\THUCNG~1\AppData\Local\Temp\ccrkUxfM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_7d567.exe C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtbegin.o -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0 -LC:/Strawberry/c/bin/../lib/gcc -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib -LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../.. CMakeFiles/cmTC_7d567.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_7d567.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtend.o]
+    arg [C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/8.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\THUCNG~1\AppData\Local\Temp\ccrkUxfM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7d567.exe] ==> ignore
+    arg [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc] ==> dir [C:/Strawberry/c/bin/../lib/gcc]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../..] ==> dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_7d567.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_7d567.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0] ==> [C:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/8.3.0]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc] ==> [C:/Strawberry/c/lib/gcc]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Strawberry/c/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../lib] ==> [C:/Strawberry/c/lib]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Strawberry/c/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../..] ==> [C:/Strawberry/c/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [C:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/8.3.0;C:/Strawberry/c/lib/gcc;C:/Strawberry/c/x86_64-w64-mingw32/lib;C:/Strawberry/c/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_cb30e"
+[1/2] Building CXX object CMakeFiles/cmTC_cb30e.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_cb30e.exe
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_cbbb6"
+[1/2] Building CXX object CMakeFiles/cmTC_cbbb6.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_cbbb6.exe
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_a95de"
+[1/2] Building CXX object CMakeFiles/cmTC_a95de.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_a95de.exe
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_fccd3"
+[1/2] Building CXX object CMakeFiles/cmTC_fccd3.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_fccd3.exe
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/esp/q1alpha/code-examples-master/code-examples-master/i2c-display/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/THUCNG~1/ESPRES~1/tools/ninja/196380~1.0/ninja.exe" "cmTC_46528"
+[1/2] Building CXX object CMakeFiles/cmTC_46528.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_46528.exe
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
