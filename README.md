@@ -95,3 +95,27 @@ ___
 
 **Course Description:**
 Hands-on introductory course to cyber-physical and IoT systems. Microcontrollers: integrated development environments (ISEs), architecture, and I/O interfaces. Hardware interfacing of systems: formal design and specifications, real-time OS, programming, and control. IoT systems: smart phones, wireless personal area networks (WPANs), IP gateways, mobile cloud computing, reliability, security, and privacy. Course culminates with a team project.
+
+___
+
+### *CS320 - Concepts of Programming Languages*
+**Semester:** Spring 2020 (Senior)
+
+**Language:** OCaml
+
+**Instructor:** Assaf Kfoury
+
+**Course Description:**
+Concepts involved in the design of programming languages. Bindings, argument transmission, and control structures. Environments: compile-time, load-time, and run-time. Interpreters.
+
+___
+
+### *EC441 - Introduction to Computer Networking*
+**Semester:** Spring 2020 (Senior)
+
+**Language:** Python
+
+**Instructor:** Jeffrey Carruthers
+
+**Course Description:**
+Computer networks, focusing on the Internet. Application protocols (Web, E- mail), basics of socket programming, major Internet protocols (TCP and IP), fundamental aspects of routing and reliable data transfer over networks, medium access protocols, wired and wireless Local Area Networks (LANs) technologies. Hands-on laboratory modules on client-server programming, Internet experiments, and protocol implementation.
